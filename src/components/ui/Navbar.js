@@ -16,6 +16,9 @@ export const Navbar = () => {
                   <NavLink to="dc" activeClassName="text-red-400 font-bold">
                      DC
                   </NavLink>
+                  <NavLink to="/search" activeClassName="text-red-400 font-bold">
+                     <i className="fas fa-search"></i>
+                  </NavLink>
                </div>
             </div>
             <div>
